@@ -1,0 +1,33 @@
+*{
+    background-color: #4b484c	;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-style:  solid;
+}
+header li{
+    display: inline;
+}
+li,a,button{
+    text-decoration: none;
+    padding: 10px;
+    list-style: nome;
+}
+.items li{
+    transition: all 0.3s ease 0s;
+}
+.items li:hover{
+    color: aqua;
+}
+.button{
+    background-color: aqua;
+    transition: all 0.3s ease 0s;
+}
+.button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
